@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](http://i1310.photobucket.com/albums/s647/timonbumba1/tip_cal_zps10tsjzmf.gif)
+![Video Walkthrough](http://i.imgur.com/1D4I4EL.gifv)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -41,7 +41,7 @@ User has to restart the app to get it back
 
 ## License
 
-    Copyright [2016] [Nguyen Van Phuong Mai]
+    Copyright 2016 Nguyen Van Phuong Mai
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
