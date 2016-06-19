@@ -4,11 +4,9 @@
 
 Submitted by: **Nguyen Van Phuong Mai**
 
-Time spent: **5** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
-
-> HINT: mark the items you completed with [x]
 
 The following **required** functionality is complete:
 
@@ -31,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](path/to/your/gif)
+![Video Walkthrough](http://i1310.photobucket.com/albums/s647/timonbumba1/tip_cal_zps10tsjzmf.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
