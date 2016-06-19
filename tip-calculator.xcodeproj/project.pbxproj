@@ -12,6 +12,9 @@
 		D2CEF00C1D053449005E7DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF00A1D053449005E7DBF /* Main.storyboard */; };
 		D2CEF00E1D053449005E7DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF00D1D053449005E7DBF /* Assets.xcassets */; };
 		D2CEF0111D053449005E7DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF00F1D053449005E7DBF /* LaunchScreen.storyboard */; };
+		D2EEB8691D09B32300C9D80B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEB8681D09B32300C9D80B /* SettingsViewController.swift */; };
+		D2F1DFFC1D1562FE00C865AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1DFFB1D1562FE00C865AE /* Constants.swift */; };
+		D2F1DFFE1D16386800C865AE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1DFFD1D16386800C865AE /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D2CEF00D1D053449005E7DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CEF0101D053449005E7DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2CEF0121D053449005E7DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EEB8681D09B32300C9D80B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D2F1DFFB1D1562FE00C865AE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2F1DFFD1D16386800C865AE /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				D2CEF0061D053449005E7DBF /* AppDelegate.swift */,
 				D2CEF0081D053449005E7DBF /* ViewController.swift */,
 				D2CEF00A1D053449005E7DBF /* Main.storyboard */,
+				D2EEB8681D09B32300C9D80B /* SettingsViewController.swift */,
 				D2CEF00D1D053449005E7DBF /* Assets.xcassets */,
 				D2CEF00F1D053449005E7DBF /* LaunchScreen.storyboard */,
 				D2CEF0121D053449005E7DBF /* Info.plist */,
+				D2F1DFFB1D1562FE00C865AE /* Constants.swift */,
+				D2F1DFFD1D16386800C865AE /* Utility.swift */,
 			);
 			path = "tip-calculator";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F1DFFE1D16386800C865AE /* Utility.swift in Sources */,
 				D2CEF0091D053449005E7DBF /* ViewController.swift in Sources */,
 				D2CEF0071D053449005E7DBF /* AppDelegate.swift in Sources */,
+				D2EEB8691D09B32300C9D80B /* SettingsViewController.swift in Sources */,
+				D2F1DFFC1D1562FE00C865AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coderschool-swift.tip-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coderschool-swift.tip-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +300,7 @@
 				D2CEF0171D053449005E7DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

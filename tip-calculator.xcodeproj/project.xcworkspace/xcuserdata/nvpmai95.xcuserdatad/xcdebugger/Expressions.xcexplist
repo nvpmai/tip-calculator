@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.viewWillAppear(Bool) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "locale_identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.applicationWillResignActive(UIApplication) -&gt; ():AppDelegate.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.getFormattedNum(Double) -&gt; String:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "locale_identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.saveBillAmount() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bill_field">
+            </PersistentString>
+            <PersistentString
+               value = "tip_label">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bill_field">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
