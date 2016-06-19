@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](http://i.imgur.com/1D4I4EL.gifv)
+![Video Walkthrough](http://i1310.photobucket.com/albums/s647/timonbumba1/tip_cal_zps10tsjzmf.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
