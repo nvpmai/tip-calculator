@@ -87,9 +87,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="bill_field" destination="cSZ-tO-Pj7" id="7Tc-gM-eaS"/>
+                        <outlet property="bill_label" destination="rBg-fI-Kqr" id="p2m-zF-JSy"/>
                         <outlet property="tip_control" destination="XZU-i2-C1h" id="paj-2k-YED"/>
                         <outlet property="tip_label" destination="gwF-CG-MSa" id="4VJ-7y-IZX"/>
+                        <outlet property="tip_name" destination="hFh-CV-BRM" id="qPL-gq-soc"/>
                         <outlet property="total_label" destination="e8K-c3-V3E" id="hqN-on-LEc"/>
+                        <outlet property="total_name" destination="3rC-rG-hi0" id="ysb-0F-Zdx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

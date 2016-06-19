@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var tip_label: UILabel!
     @IBOutlet weak var total_label: UILabel!
     @IBOutlet weak var tip_control: UISegmentedControl!
+    @IBOutlet weak var bill_label: UILabel!
+    @IBOutlet weak var tip_name: UILabel!
+    @IBOutlet weak var total_name: UILabel!
+    
     let defaults = NSUserDefaults.standardUserDefaults()
     let utility = Utility()
     var currency_cons = Constants.Currency.self
@@ -34,14 +38,8 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         bill_field.becomeFirstResponder()
         locale_identifier = utility.getLocaleIdentifier()
+        animate()
         reflectUserInput()
-        
-        self.bill_field.alpha = 0
-        UIView.animateWithDuration(4, animations: {
-            self.bill_field.alpha = 1
-        })
-        
-        bill_field.center.x -= view.bounds.width
     }
     
     override func didReceiveMemoryWarning() {
@@ -87,6 +85,27 @@ class ViewController: UIViewController {
         formatter.numberStyle = .CurrencyStyle
         formatter.locale = NSLocale(localeIdentifier: locale_identifier)
         return formatter.stringFromNumber(num)!
+    }
+    
+    func animate() {
+        bill_field.center.x += view.bounds.width
+        bill_label.center.x -= view.bounds.width
+        tip_name.center.x -= view.bounds.width
+        tip_label.center.x += view.bounds.width
+        total_name.center.x -= view.bounds.width
+        total_label.center.x += view.bounds.width
+        
+        UIView.animateWithDuration(1.5, delay: 0.5,
+            usingSpringWithDamping: 0.3,
+            initialSpringVelocity: 0.5,
+            options: [], animations: {
+            self.bill_label.center.x += self.view.bounds.width
+            self.bill_field.center.x -= self.view.bounds.width
+            self.total_label.center.x -= self.view.bounds.width
+            self.total_name.center.x += self.view.bounds.width
+            self.tip_name.center.x += self.view.bounds.width
+            self.tip_label.center.x -= self.view.bounds.width
+            }, completion: nil)
     }
 }
 
