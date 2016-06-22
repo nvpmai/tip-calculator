@@ -42,12 +42,13 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func tipPercentageEdited(sender: AnyObject) {
-        utility.saveSetting(tip_percentage_field.text!, key: default_cons.tip_percentage_key)
-    }
     
     @IBAction func currencyEdited(sender: AnyObject) {
         utility.saveSetting(picker_field.text!, key: default_cons.currency_key)
+    }
+    
+    @IBAction func tipPercentageEdited(sender: AnyObject) {
+        utility.saveSetting(tip_percentage_field.text!, key: default_cons.tip_percentage_key)
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
